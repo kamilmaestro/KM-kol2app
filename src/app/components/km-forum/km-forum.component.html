@@ -1,0 +1,6 @@
+<div *ngFor="let post of posts$" class="row">
+  <div class="col-md-9">
+    <app-km-forum-item [id]="post.id" [title]="post.title" [text]="post.text" [image]="post.image">
+    </app-km-forum-item>
+  </div>
+</div>
